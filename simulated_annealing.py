@@ -15,6 +15,7 @@ class SimulatedAnnealingTSP:
         """Runs the Simulated Annealing algorithm."""
         current_solution = random.sample(self.tsp_problem.cities, len(self.tsp_problem.cities))
         current_route = [city.id for city in current_solution]
+
         current_distance = self.tsp_problem.total_distance(current_route)
 
         best_solution, best_distance = current_route, current_distance
