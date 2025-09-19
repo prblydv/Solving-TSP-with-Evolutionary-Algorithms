@@ -23,7 +23,7 @@ class SimulatedAnnealingTSP:
         temperature = self.initial_temp
 
         while temperature > self.stopping_temp:
-            new_route = current_route[:]
+            new_route = current_route[:] 
             i, j = random.sample(range(len(new_route)), 2)
             new_route[i], new_route[j] = new_route[j], new_route[i]
             new_distance = self.tsp_problem.total_distance(new_route)
