@@ -17,7 +17,7 @@ class GeneticAlgorithmTSP:
         population = []
         for _ in range(self.population_size):
             tour = list(range(1, len(self.tsp_problem.cities) + 1))
-            random.shuffle(tour)
+            random.shuffle(tour) 
             population.append(tour)
         return population
 
