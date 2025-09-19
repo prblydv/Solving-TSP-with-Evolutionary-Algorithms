@@ -469,7 +469,7 @@ if __name__ == "__main__":
     print('GA - Distances:', distances_ga)
     print('SA - Distances:', distances_sa)
 
-    plot_ga_distances(distances_ga)
+    plot_ga_distances(distances_ga) 
     plot_sa_distances(distances_sa)
 
     stat, p = wilcoxon(distances_ga, distances_sa)
