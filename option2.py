@@ -226,7 +226,7 @@ def plot_paths(cities, original_path, optimized_path):
     axes[1].set_xlabel('X Coordinate')
     axes[1].set_ylabel('Y Coordinate')
 
-    for ax in axes:
+    for ax in axes: 
         ax.legend()
         ax.grid(True)
 
