@@ -11,6 +11,7 @@ class SimulatedAnnealingTSP:
         self.cooling_rate = cooling_rate
         self.stopping_temp = stopping_temp
 
+
     def run(self):
         """Runs the Simulated Annealing algorithm."""
         current_solution = random.sample(self.tsp_problem.cities, len(self.tsp_problem.cities))
