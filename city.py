@@ -7,5 +7,5 @@ class City:
         self.id = id
         self.x = x
 
-
+ 
         self.y = y
