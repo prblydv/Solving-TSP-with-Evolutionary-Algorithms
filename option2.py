@@ -271,7 +271,7 @@ def tune_ga_parameters(tsp_problem):
         'crossover_rate': [0.7],
         'tournament_size': [500]
     }
-    best_params = None
+    best_params = None 
     best_distance = float('inf')
 
     results = []
