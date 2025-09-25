@@ -50,6 +50,7 @@ class GeneticAlgorithmTSP:
             offspring = self.crossover(parent1, parent2)
             offspring = self.mutate(offspring)
             next_population.append(offspring)
+
         self.population = next_population
 
     def run(self):
