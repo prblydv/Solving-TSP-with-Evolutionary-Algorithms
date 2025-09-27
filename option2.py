@@ -320,7 +320,7 @@ def plot_results(results):
     ax[1].set_ylabel('Distance')
     ax[1].set_title('Cooling Rate vs Distance')
     legend2 = ax[1].legend(*scatter.legend_elements(), title="Initial Temps")
-    ax[1].add_artist(legend2)
+    ax[1].add_artist(legend2) 
     scatter = ax[2].scatter(stop_temps, distances, c=cool_rates, cmap='cividis')
     ax[2].set_xlabel('Stopping Temperature')
     ax[2].set_ylabel('Distance')
