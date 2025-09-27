@@ -1,5 +1,6 @@
 class City:
 
+
  
 
     """Represents a city in the TSP problem with an ID and coordinates."""
