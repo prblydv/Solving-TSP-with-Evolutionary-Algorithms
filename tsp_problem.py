@@ -2,6 +2,7 @@ import math
 from city import City
 
 class TSPProblem:
+
     """Encapsulates the TSP problem, including cities and distance calculations."""
 
     def __init__(self, cities):
