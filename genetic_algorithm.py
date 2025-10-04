@@ -49,6 +49,7 @@ class GeneticAlgorithmTSP:
             parent2 = random.choices(self.population, weights=fitnesses, k=1)[0]
             offspring = self.crossover(parent1, parent2)
             offspring = self.mutate(offspring)
+
             next_population.append(offspring)
 
         self.population = next_population
