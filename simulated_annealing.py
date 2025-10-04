@@ -6,7 +6,7 @@ class SimulatedAnnealingTSP:
     """Simulated Annealing algorithm for solving TSP."""
 
     def __init__(self, tsp_problem, initial_temp=10000, cooling_rate=0.003, stopping_temp=0.1):
-        self.tsp_problem = tsp_problem
+        self.tsp_problem = tsp_problem 
         self.initial_temp = initial_temp
         self.cooling_rate = cooling_rate
         self.stopping_temp = stopping_temp
