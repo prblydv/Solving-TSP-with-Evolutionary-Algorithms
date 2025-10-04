@@ -63,7 +63,7 @@ city_data = [
 cities = [City(id, x, y) for id, x, y in city_data]
 
 tsp_problem = TSPProblem(cities)
-
+ 
 
 
 # Run Genetic Algorithm
