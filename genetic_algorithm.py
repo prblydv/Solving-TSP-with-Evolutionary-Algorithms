@@ -30,6 +30,7 @@ class GeneticAlgorithmTSP:
         return genes 
 
     def crossover(self, parent1, parent2):
+
         """Performs crossover between two parents."""
         if random.random() < self.crossover_rate:
             start, end = sorted(random.sample(range(len(parent1)), 2))
