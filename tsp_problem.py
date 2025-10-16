@@ -6,7 +6,7 @@ class TSPProblem:
     """Encapsulates the TSP problem, including cities and distance calculations."""
 
     def __init__(self, cities):
-        self.cities = cities
+        self.cities = cities 
 
     def pseudo_euclidean_distance(self, city1, city2):
         """Computes the pseudo-Euclidean distance between two cities."""
