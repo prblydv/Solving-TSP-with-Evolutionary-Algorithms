@@ -156,7 +156,7 @@ class GeneticAlgorithmTSP:
             offspring = self.mutate(offspring)
             next_population.append(offspring)
         self.population = next_population
-
+ 
     def run(self):
         best_tour = None
         best_fitness = float('-inf')
