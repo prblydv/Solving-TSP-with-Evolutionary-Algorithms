@@ -257,7 +257,7 @@ def tune_sa_parameters(tsp_problem):
                 _, distance = simulated_annealing(tsp_problem, init_temp, cool_rate, stop_temp)
                 curr_res = [init_temp, cool_rate, stop_temp, distance]
                 results.append(curr_res)
-
+ 
                 if distance < best_distance:
                     best_distance = distance
                     best_params = sa_params
