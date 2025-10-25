@@ -24,6 +24,6 @@ class TSPProblem:
             distance += self.pseudo_euclidean_distance(city1, city2)
         return distance 
 
-    def fitness(self, path):
+    def fitness(self, path): 
         """Computes fitness score (inverse of distance)."""
         return 1 / float(self.total_distance(path))
