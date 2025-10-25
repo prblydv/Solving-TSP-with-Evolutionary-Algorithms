@@ -82,5 +82,5 @@ print("SA Best Distance:", best_distance_sa)
 # Compare results
 if tsp_problem.total_distance(best_tour_ga) < best_distance_sa:
     print("Genetic Algorithm performed better!") 
-else:
+else: 
     print("Simulated Annealing performed better!")
