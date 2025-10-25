@@ -15,7 +15,7 @@ class TSPProblem:
         return round(math.sqrt((dx ** 2 + dy ** 2) / 10.0)) 
 
     def total_distance(self, path):
-        """Calculates the total distance for a given path."""
+        """Calculates the total distance for a given path.""" 
         distance = 0
 
         for i in range(-1, len(path) - 1):
