@@ -311,7 +311,7 @@ def plot_results(results):
     distances = results_array[:, 3]
     fig, ax = plt.subplots(3, 1, figsize=(10, 15))
     scatter = ax[0].scatter(init_temps, distances, c=cool_rates, cmap='viridis')
-    ax[0].set_xlabel('Initial Temperature')
+    ax[0].set_xlabel('Initial Temperature') 
     ax[0].set_ylabel('Distance')
     ax[0].set_title('Initial Temperature vs Distance')
     legend1 = ax[0].legend(*scatter.legend_elements(), title="Cooling Rates")
