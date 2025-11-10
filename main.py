@@ -69,7 +69,7 @@ tsp_problem = TSPProblem(cities)
 
 # Run Genetic Algorithm
 print("Running Genetic Algorithm...")
-ga = GeneticAlgorithmTSP(tsp_problem)
+ga = GeneticAlgorithmTSP(tsp_problem) 
 best_tour_ga = ga.run()
 print("GA Best Distance:", tsp_problem.total_distance(best_tour_ga))
 
