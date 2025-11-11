@@ -236,6 +236,7 @@ def plot_paths(cities, original_path, optimized_path):
 
 
 def tune_sa_parameters(tsp_problem):
+
     sa_param_options = {
         'initial_temp': [1000, 5000, 10000, 10000 * 2, 50000, 50000 * 2],
         'cooling_rate': [0.01, 0.003, 0.005, 0.0001],
