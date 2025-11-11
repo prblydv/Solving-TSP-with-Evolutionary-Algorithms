@@ -9,6 +9,7 @@ from city import City
 # List of cities from the provided data
 city_data = [
     (1, 6734, 1453),
+
     (2, 2233, 10),
 
     (3, 5530, 1424),
