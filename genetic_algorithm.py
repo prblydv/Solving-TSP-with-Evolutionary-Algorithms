@@ -45,7 +45,7 @@ class GeneticAlgorithmTSP:
         """Performs selection, crossover, and mutation to evolve the population."""
         fitnesses = [self.tsp_problem.fitness(tour) for tour in self.population]
         next_population = []
-        for _ in range(self.population_size):
+        for _ in range(self.population_size): 
 
             parent1 = random.choices(self.population, weights=fitnesses, k=1)[0]
             parent2 = random.choices(self.population, weights=fitnesses, k=1)[0]
