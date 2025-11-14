@@ -387,6 +387,7 @@ def run_ga_multiple_times(tsp_problem, ga_params, num_runs=30, total_evaluations
         distance = tsp_problem.total_distance(best_tour)
         distances.append(distance)
 
+
     average_distance = sum(distances) / num_runs
     std_deviation = np.std(distances)
     print(len(distances))
