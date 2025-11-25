@@ -38,7 +38,7 @@ class SimulatedAnnealingTSP:
                 if current_distance < best_distance:
  
                     best_solution, best_distance = current_route, current_distance
-
+ 
             temperature *= (1 - self.cooling_rate)
 
         return best_solution, best_distance
