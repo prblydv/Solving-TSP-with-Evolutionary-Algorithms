@@ -1,4 +1,5 @@
 import random
+
 from tsp_problem import TSPProblem
 
 class GeneticAlgorithmTSP:
