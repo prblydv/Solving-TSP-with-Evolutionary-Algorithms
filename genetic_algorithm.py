@@ -14,6 +14,7 @@ class GeneticAlgorithmTSP:
         self.generations = generations
         self.population = self.init_population()
 
+
     def init_population(self):
         """Initializes a population of possible routes."""
         population = []
