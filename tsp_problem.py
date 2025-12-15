@@ -10,6 +10,7 @@ class TSPProblem:
 
     def pseudo_euclidean_distance(self, city1, city2):
         """Computes the pseudo-Euclidean distance between two cities."""
+
         dx = city1.x - city2.x
         dy = city1.y - city2.y 
         return round(math.sqrt((dx ** 2 + dy ** 2) / 10.0)) 
