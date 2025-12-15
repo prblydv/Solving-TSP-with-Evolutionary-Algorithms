@@ -186,6 +186,7 @@ def simulated_annealing(tsp_problem, initial_temp=320000, cooling_rate=0.001, st
 
     while temperature > stopping_temp or runs < 10000:
         new_route = list(current_route)
+
         i, j = random.sample(range(len(new_route)), 2)
         new_route[i], new_route[j] = new_route[j], new_route[i]
         new_distance = tsp_problem.total_distance(new_route)
