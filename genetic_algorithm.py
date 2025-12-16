@@ -39,7 +39,7 @@ class GeneticAlgorithmTSP:
             start, end = sorted(random.sample(range(len(parent1)), 2))
             child = parent1[start:end]
             for gene in parent2:
-                if gene not in child:
+                if gene not in child: 
                     child.append(gene)
             return child
         return parent1 if random.random() < 0.5 else parent2
