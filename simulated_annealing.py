@@ -43,4 +43,5 @@ class SimulatedAnnealingTSP:
  
             temperature *= (1 - self.cooling_rate)
 
+
         return best_solution, best_distance
