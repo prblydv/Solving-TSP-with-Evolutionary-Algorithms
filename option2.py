@@ -119,6 +119,7 @@ class GeneticAlgorithmTSP:
             i += 1
         return population
 
+
     def mutate(self, genes):
         # print('gene',genes)
         for i in range(len(genes)):
