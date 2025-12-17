@@ -62,4 +62,4 @@ class GeneticAlgorithmTSP:
     def run(self):
         """Runs the genetic algorithm."""
         best_tour = min(self.population, key=lambda tour: self.tsp_problem.total_distance(tour))
-        return best_tour
+        return best_tour 
