@@ -1,7 +1,7 @@
 import math
 from city import City
 
-class TSPProblem:
+class TSPProblem: 
  
     """Encapsulates the TSP problem, including cities and distance calculations.""" 
 
