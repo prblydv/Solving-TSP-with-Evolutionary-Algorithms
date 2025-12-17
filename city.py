@@ -12,6 +12,7 @@ class City:
 
  
 
+
         self.x = x
 
  
