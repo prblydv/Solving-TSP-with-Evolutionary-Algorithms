@@ -8,7 +8,7 @@ class GeneticAlgorithmTSP:
     def __init__(self, tsp_problem, population_size=500, mutation_rate=0.001, crossover_rate=0.7, generations=2000):
         self.tsp_problem = tsp_problem
         self.population_size = population_size
-        self.mutation_rate = mutation_rate
+        self.mutation_rate = mutation_rate 
         self.crossover_rate = crossover_rate
 
         self.generations = generations
