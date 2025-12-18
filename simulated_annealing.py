@@ -3,6 +3,7 @@ import math
 from tsp_problem import TSPProblem
 
 class SimulatedAnnealingTSP:
+
     """Simulated Annealing algorithm for solving TSP."""
 
 
