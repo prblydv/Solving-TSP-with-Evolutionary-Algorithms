@@ -77,7 +77,7 @@ best_tour_ga = ga.run()
 print("GA Best Distance:", tsp_problem.total_distance(best_tour_ga))
 
 # Run Simulated Annealing
-print("Running Simulated Annealing...")
+print("Running Simulated Annealing...") 
 sa = SimulatedAnnealingTSP(tsp_problem)
 best_tour_sa, best_distance_sa = sa.run()
 print("SA Best Distance:", best_distance_sa)
