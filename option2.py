@@ -278,7 +278,7 @@ def tune_ga_parameters(tsp_problem):
     }
     best_params = None 
     best_distance = float('inf')
-
+ 
     results = []
 
     for population_size in ga_param_options['population_size']:
