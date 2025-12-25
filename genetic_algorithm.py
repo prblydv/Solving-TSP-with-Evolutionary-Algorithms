@@ -9,6 +9,7 @@ class GeneticAlgorithmTSP:
         self.tsp_problem = tsp_problem
         self.population_size = population_size
         self.mutation_rate = mutation_rate 
+
         self.crossover_rate = crossover_rate
 
         self.generations = generations
