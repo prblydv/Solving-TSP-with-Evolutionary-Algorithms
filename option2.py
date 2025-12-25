@@ -436,7 +436,7 @@ def plot_ga_distances(distances):
     plt.xlabel('Run')
     plt.ylabel('Distance')
     plt.grid(True)
-    plt.xticks(runs)
+    plt.xticks(runs) 
     plt.tight_layout()
     plt.show() 
 
