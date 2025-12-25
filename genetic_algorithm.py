@@ -50,6 +50,7 @@ class GeneticAlgorithmTSP:
         next_population = []
         for _ in range(self.population_size): 
 
+
             parent1 = random.choices(self.population, weights=fitnesses, k=1)[0] 
             parent2 = random.choices(self.population, weights=fitnesses, k=1)[0]
             offspring = self.crossover(parent1, parent2)
