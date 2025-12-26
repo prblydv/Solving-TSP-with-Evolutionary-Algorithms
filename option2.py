@@ -459,7 +459,7 @@ if __name__ == "__main__":
 
     print('ga best params:', ga_params)
     print('sa best params: ', sa_params)
-
+ 
     time2 = time.time()
     time_taken = time1 - time2
     print('total time taken', time_taken)
