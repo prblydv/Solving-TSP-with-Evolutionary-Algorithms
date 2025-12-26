@@ -28,7 +28,7 @@ class SimulatedAnnealingTSP:
 
         best_solution, best_distance = current_route, current_distance
 
-        temperature = self.initial_temp
+        temperature = self.initial_temp 
 
         while temperature > self.stopping_temp:
             new_route = current_route[:] 
