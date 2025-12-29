@@ -14,6 +14,7 @@ class SimulatedAnnealingTSP:
 
         self.tsp_problem = tsp_problem 
         self.initial_temp = initial_temp
+
         self.cooling_rate = cooling_rate
         self.stopping_temp = stopping_temp
 
