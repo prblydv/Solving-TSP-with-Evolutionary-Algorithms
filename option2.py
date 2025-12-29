@@ -217,7 +217,7 @@ def plot_paths(cities, original_path, optimized_path):
     opt_x = [x_coords[city_id] for city_id in optimized_path + [optimized_path[0]]]
     opt_y = [y_coords[city_id] for city_id in optimized_path + [optimized_path[0]]]
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 7))
+    fig, axes = plt.subplots(1, 2, figsize=(14, 7)) 
 
     axes[0].plot(orig_x, orig_y, 'o-', mfc='g', label='Simulated Annealing')
     axes[0].set_title('Optimized Path')
