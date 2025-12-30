@@ -376,7 +376,7 @@ def plot_ga_results(results):
     plt.tight_layout()
     plt.show()
 
-
+ 
 def run_ga_multiple_times(tsp_problem, ga_params, num_runs=30, total_evaluations=10000):
     generations_needed = total_evaluations // ga_params['population_size']
     ga_params['generations'] = generations_needed
