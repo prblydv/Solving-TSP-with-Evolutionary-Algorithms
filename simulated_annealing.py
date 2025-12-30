@@ -1,6 +1,6 @@
 import random 
 import math
-from tsp_problem import TSPProblem
+from tsp_problem import TSPProblem 
 
 class SimulatedAnnealingTSP:
 
