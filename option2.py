@@ -311,6 +311,7 @@ def plot_results(results):
 
     init_temps = results_array[:, 0]
     cool_rates = results_array[:, 1]
+
     stop_temps = results_array[:, 2]
     distances = results_array[:, 3]
     fig, ax = plt.subplots(3, 1, figsize=(10, 15))
