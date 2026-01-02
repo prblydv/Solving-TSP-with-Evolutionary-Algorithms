@@ -273,7 +273,7 @@ def tune_ga_parameters(tsp_problem):
     ga_param_options = {
         'population_size': [500],
         'mutation_rate': [0.001],
-        'crossover_rate': [0.7],
+        'crossover_rate': [0.7], 
         'tournament_size': [500]
     }
     best_params = None 
