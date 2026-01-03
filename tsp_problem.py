@@ -14,6 +14,7 @@ class TSPProblem:
         dx = city1.x - city2.x
         dy = city1.y - city2.y 
         return round(math.sqrt((dx ** 2 + dy ** 2) / 10.0)) 
+
  
     def total_distance(self, path):
         """Calculates the total distance for a given path.""" 
