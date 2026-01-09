@@ -369,6 +369,7 @@ def plot_ga_results(results):
     fig.colorbar(scatter3, ax=axs[1, 0], label='Tournament Size')
 
     scatter4 = axs[1, 1].scatter(tournament_sizes, distances, c=crossover_rates, cmap='magma', label='Crossover Rates')
+
     axs[1, 1].set_xlabel('Tournament Size')
     axs[1, 1].set_ylabel('Distance')
     axs[1, 1].set_title('Tournament Size vs Distance')
