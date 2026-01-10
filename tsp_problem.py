@@ -30,4 +30,4 @@ class TSPProblem:
 
     def fitness(self, path): 
         """Computes fitness score (inverse of distance)."""
-        return 1 / float(self.total_distance(path)) 
+        return 1 / float(self.total_distance(path))  
