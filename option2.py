@@ -307,6 +307,7 @@ def tune_ga_parameters(tsp_problem):
 
 
 def plot_results(results):
+
     results_array = np.array(results)
  
     init_temps = results_array[:, 0]
