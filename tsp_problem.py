@@ -23,6 +23,7 @@ class TSPProblem:
         for i in range(-1, len(path) - 1):
             city1 = self.cities[path[i] - 1]
 
+
             city2 = self.cities[path[i + 1] - 1]
             distance += self.pseudo_euclidean_distance(city1, city2)
         return distance 
