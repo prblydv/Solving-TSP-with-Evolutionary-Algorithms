@@ -316,6 +316,7 @@ def plot_results(results):
     stop_temps = results_array[:, 2]
     distances = results_array[:, 3]
     fig, ax = plt.subplots(3, 1, figsize=(10, 15))
+
     scatter = ax[0].scatter(init_temps, distances, c=cool_rates, cmap='viridis')
     ax[0].set_xlabel('Initial Temperature') 
     ax[0].set_ylabel('Distance')
