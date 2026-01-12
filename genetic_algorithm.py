@@ -29,7 +29,7 @@ class GeneticAlgorithmTSP:
         """Mutates a given chromosome."""
         for i in range(len(genes)):
             if random.random() < self.mutation_rate:  
-                a, b = random.sample(range(len(genes)), 2)
+                a, b = random.sample(range(len(genes)), 2) 
 
                 genes[a], genes[b] = genes[b], genes[a]
         return genes 
