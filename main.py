@@ -2,6 +2,7 @@ import time
 from tsp_problem import TSPProblem
 from genetic_algorithm import GeneticAlgorithmTSP
 
+
 from simulated_annealing import SimulatedAnnealingTSP
 from city import City 
 # Initialize problem
