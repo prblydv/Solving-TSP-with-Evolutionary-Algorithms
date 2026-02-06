@@ -72,6 +72,7 @@ tsp_problem = TSPProblem(cities)
  
 
 
+
 # Run Genetic Algorithm
 print("Running Genetic Algorithm...")
 ga = GeneticAlgorithmTSP(tsp_problem) 
