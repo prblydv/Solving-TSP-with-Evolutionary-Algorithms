@@ -22,7 +22,7 @@ class TSPProblem:
         distance = 0
 
         for i in range(-1, len(path) - 1):
-            city1 = self.cities[path[i] - 1]
+            city1 = self.cities[path[i] - 1] 
 
 
 
